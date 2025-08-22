@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Funny_facesApp: App {
+    
+    @StateObject private var photoPickerViewModel = PhotoPickerViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: .init(photoPickerViewModel: photoPickerViewModel))
         }
     }
 }

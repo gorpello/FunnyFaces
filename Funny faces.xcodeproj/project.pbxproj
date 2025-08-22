@@ -6,17 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		49F0CE3E2E1497BF00070129 /* Funny faces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funny faces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		492D69C52E585FBC00F1409F /* UIImage+Transferable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492D69C42E585FBC00F1409F /* UIImage+Transferable.swift */; };
+		49A60C872E585804008C79FC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 49A60C862E585803008C79FC /* README.md */; };
+		49F0CE602E149B8000070129 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0CE5A2E149B8000070129 /* ContentView.swift */; };
+		49F0CE612E149B8000070129 /* Funny_facesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0CE5B2E149B8000070129 /* Funny_facesApp.swift */; };
+		49F0CE622E149B8000070129 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0CE5C2E149B8000070129 /* ImageViewModel.swift */; };
+		49F0CE632E149B8000070129 /* PhotoPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0CE5D2E149B8000070129 /* PhotoPickerViewModel.swift */; };
+		49F0CE642E149B8000070129 /* UIImage+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0CE5E2E149B8000070129 /* UIImage+Helpers.swift */; };
+		49F0CE652E149B8000070129 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F0CE572E149B8000070129 /* Preview Assets.xcassets */; };
+		49F0CE662E149B8000070129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F0CE592E149B8000070129 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		49F0CE402E1497BF00070129 /* Funny faces */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Funny faces";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		492D69C42E585FBC00F1409F /* UIImage+Transferable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Transferable.swift"; sourceTree = "<group>"; };
+		49A60C862E585803008C79FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		49F0CE3E2E1497BF00070129 /* Funny faces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funny faces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F0CE572E149B8000070129 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49F0CE592E149B8000070129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49F0CE5A2E149B8000070129 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49F0CE5B2E149B8000070129 /* Funny_facesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funny_facesApp.swift; sourceTree = "<group>"; };
+		49F0CE5C2E149B8000070129 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		49F0CE5D2E149B8000070129 /* PhotoPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewModel.swift; sourceTree = "<group>"; };
+		49F0CE5E2E149B8000070129 /* UIImage+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Helpers.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		49F0CE3B2E1497BF00070129 /* Frameworks */ = {
@@ -32,7 +45,7 @@
 		49F0CE352E1497BF00070129 = {
 			isa = PBXGroup;
 			children = (
-				49F0CE402E1497BF00070129 /* Funny faces */,
+				49F0CE5F2E149B8000070129 /* Funny faces */,
 				49F0CE3F2E1497BF00070129 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +56,30 @@
 				49F0CE3E2E1497BF00070129 /* Funny faces.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		49F0CE582E149B8000070129 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49F0CE572E149B8000070129 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49F0CE5F2E149B8000070129 /* Funny faces */ = {
+			isa = PBXGroup;
+			children = (
+				49F0CE5B2E149B8000070129 /* Funny_facesApp.swift */,
+				49F0CE5A2E149B8000070129 /* ContentView.swift */,
+				49F0CE5C2E149B8000070129 /* ImageViewModel.swift */,
+				49F0CE5D2E149B8000070129 /* PhotoPickerViewModel.swift */,
+				49F0CE5E2E149B8000070129 /* UIImage+Helpers.swift */,
+				49F0CE592E149B8000070129 /* Assets.xcassets */,
+				49F0CE582E149B8000070129 /* Preview Content */,
+				49A60C862E585803008C79FC /* README.md */,
+				492D69C42E585FBC00F1409F /* UIImage+Transferable.swift */,
+			);
+			path = "Funny faces";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +96,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				49F0CE402E1497BF00070129 /* Funny faces */,
 			);
 			name = "Funny faces";
 			packageProductDependencies = (
@@ -109,6 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A60C872E585804008C79FC /* README.md in Resources */,
+				49F0CE652E149B8000070129 /* Preview Assets.xcassets in Resources */,
+				49F0CE662E149B8000070129 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F0CE602E149B8000070129 /* ContentView.swift in Sources */,
+				49F0CE612E149B8000070129 /* Funny_facesApp.swift in Sources */,
+				492D69C52E585FBC00F1409F /* UIImage+Transferable.swift in Sources */,
+				49F0CE622E149B8000070129 /* ImageViewModel.swift in Sources */,
+				49F0CE632E149B8000070129 /* PhotoPickerViewModel.swift in Sources */,
+				49F0CE642E149B8000070129 /* UIImage+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
