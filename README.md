@@ -13,10 +13,6 @@ Use the Vision Framework to perform various computer vision tasks, enabling your
 - Highlight detected faces with visible rectangles.
 - Navigate between different detected faces.
 
-## Screenshots
-
-*(Add your screenshots here!)*
-
 ## Exercise
 
 Your task is to create a new iOS project that uses the Vision framework to make funny overlays on faces in photos. This will require you to execute a Vision request and then manipulate the observation before using the observation data to draw on the screen.
